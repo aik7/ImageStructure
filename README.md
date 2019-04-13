@@ -12,10 +12,9 @@ This code computes the following:
 
 (5) OUTPUTS:
 
-  Markup : 1. A file "structured_vectors.dat": the parameters and its pair of numbers (mean, sigma) corresponding to the mean and standard deviation of the Gaussian fit
-   (data will be accumulated)
+1. A file "structured_vectors.dat" containing the parameters and its pair of numbers (mean, sigma) corresponding to the mean and standard deviation of the Gaussian fit (data will be accumulated.)
 
-           2. A gaussian-fit figure in png format
+2. A Gaussian-fit figure in png format
 
 Ai modified [Anthony's code](https://github.com/adegenna/image_structure)
 to save structured vectors for multiple input images.
