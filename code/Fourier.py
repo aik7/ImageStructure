@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 import scipy.optimize as opt
 from inputArgs import *
-
+import matplotlib
+matplotlib.use('Agg')
 
 def fit_gaussian_to_average_fourier_spectrum(data,plot_metrics=False):
     """
