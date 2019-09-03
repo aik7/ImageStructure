@@ -1,1 +1,8 @@
 language: python
+python:
+  - "2.7"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - python ./code/driver.py -input=./data/2D_N100_T2000_sig0.25_m0.4_size8_gray.npy -m=.4 -sig=0.25
