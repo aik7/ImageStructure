@@ -14,7 +14,7 @@ def main():
 
     # Compute structure function
     structure_analysis = ImageStructure(input)
-    structure_metrics  = structure_analysis.compute_structure(plot_metrics=True)
+    structure_metrics  = structure_analysis.compute_structure(plot_metrics=False)
 
     results = np.array([m, sig, structure_metrics[0], structure_metrics[1]] )
     f=open('structured_vectors.dat','a')
