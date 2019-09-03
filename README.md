@@ -1,3 +1,5 @@
+https://travis-ci.org/aik7/image_structure.svg?branch=master
+
 # Description
 
 This code computes the following:
