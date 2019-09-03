@@ -1,4 +1,4 @@
-https://travis-ci.org/aik7/image_structure.svg?branch=master
+[![Build Status](https://travis-ci.org/aik7/image_structure.svg?branch=master)](https://travis-ci.org/aik7/image_structure)
 
 # Description
 
