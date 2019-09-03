@@ -31,7 +31,7 @@ def fit_gaussian_to_average_fourier_spectrum(data,plot_metrics=False):
         zhat      = np.fft.fftfreq(nz)*nz
         xxhat,yyhat,zzhat     = np.meshgrid(xhat,yhat,zhat)
         freq_avg,data_hat_avg = compute_radial_average_3d(xxhat,yyhat,zzhat,np.abs(data_hat))
-    gauss_mean, gauss_sigma = fit_gaussian(freq_avg,data_hat_avg,plot_metrics)
+    gauss_mean, gauss_sigma = fit_gaussian(freq_avg,data_hat_avg,plot_metrics, plot_fit=False)
     return gauss_mean,gauss_sigma
 
 def compute_radial_average_2d(xx,yy,signal):
